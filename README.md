@@ -1,13 +1,15 @@
-# Embedding servo
+# Embedding Servo
 
-This repository shocase the basic setup needed to setup a `hello world` equivalent program to build and run servo.
+This repository showcases the basic setup for an `Hello World` equivalent program to embed, build, and run Servo.
 
-Note: As I am using `libsimpleservo` in this repository, for next steps I am assuming you already servo running locally. If not please checkout servo [repository](https://github.com/servo/servo) on how to set it up locally.
+```
+Note: Since I am using `libsimpleservo` in this repository, for the following steps, I assume that you already have `Servo project` built locally. If not, please check out the [ Servo repository](https://github.com/servo/servo) for instructions on how to set it up locally.
+```
 
 ## Steps:
 1. Clone this project
-3. Delete `cargo.lock` file and `rust-toolchain` file in your local `servo-embedding` project
-3. Copy `cargo.lock` file and `rust-toolchain` file from `servo's repository` and paste it in your local `servo-embedding` project
+3. Delete the `cargo.lock` file and the `rust-toolchain` file in your local `servo-embedding` project.
+3. Copy the `cargo.lock` file and the `rust-toolchain` file from the `Servo repository` and paste them into your local `servo-embedding` project
 
 ## Building and running locally:
 
