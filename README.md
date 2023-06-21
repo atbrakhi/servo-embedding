@@ -32,9 +32,9 @@ To use `libsimpleservo`, the following steps assumes that you already have `Serv
 
     ```
     extern crate servo;
-    
+
     fn main() {
-        println!("Servo version: {:?}", servo::embedder_traits::EmbedderMsg::Status(")); // or something that you want?
+        // do something
     }
     ```
 
