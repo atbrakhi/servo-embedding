@@ -2,10 +2,10 @@
 
 This repository showcases the basic setup for an `Hello World` equivalent program to embed, build, and run Servo.
 
-- OPTION 1: Using `libsimpleservo`
-- OPTION 2: Using `libservo`
+- Option 1: Using `libsimpleservo`
+- Option 2: Using `libservo`
 
-## OPTION 1: Using `libsimpleservo`
+## Option 1: Using `libsimpleservo`
 
 To use `libsimpleservo`, the following steps assumes that you already have `Servo project` built locally. If not, please check out the [ Servo repository](https://github.com/servo/servo) for instructions on how to set it up locally.
 
@@ -16,7 +16,7 @@ To use `libsimpleservo`, the following steps assumes that you already have `Serv
 3. Copy the `cargo.lock` file and the `rust-toolchain` file from the `Servo repository` and paste them into your local `servo-embedding` project
 
 
-## OPTION 2: Using `libservo`
+## Option 2: Using `libservo`
 
 #### Steps:
 1. Clone this project
