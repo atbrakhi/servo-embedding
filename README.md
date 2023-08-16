@@ -22,7 +22,7 @@ To use `libsimpleservo`, the following steps assumes that you already have `Serv
 1. Clone this project
 2. In `Cargo.toml` file, under [dependencies] delete the `simpleservo` line(L9) and add:
     ```
-    libservo = {git = "https://github.com/servo/servo", rev="XXXXXXX", features = ["layout-2013", "media-gstreamer"]}
+    libservo = {git = "https://github.com/servo/servo", rev="XXXXXXX", features = ["media-gstreamer"]}
     ```
     Note: you will need to get the latest `rev` from servo [repository](https://github.com/servo/servo)
 
